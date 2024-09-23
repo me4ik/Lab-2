@@ -13,7 +13,7 @@ int main(){
     cout << "Input a, b and c" << endl;
     cin >> a; cin >> b; cin >> c;
 
-    float p = (a + b + c)/2.0;
+    float p = (a + b + c)/2.0f;
     float area = sqrt(p * (p - a) * (p - b) * (p - c));
 
     cout << "Area of a triangle: " + std::to_string(area) << endl;
